@@ -1,23 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Masterclass Online | Técnico en Reparación y Mantenimiento de PC y Laptops</title>
-  <meta name="description" content="Aprende desde cero a diagnosticar, reparar y optimizar computadoras y laptops. Inicia tu propio taller técnico rentable.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Programas Técnicos Profesionales | Certificación Garantizada</title>
+  <link rel="stylesheet" href="style.css" />
 
-  <!-- =============================================== -->
-  <!-- PREVISUALIZACIÓN DIRECTA EN REDES (OG TAGS)    -->
-  <!-- =============================================== -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="🔧 Conviértete en Técnico de PC y Laptops | 50% DCTO">
-  <meta property="og:description" content="Aprende armado gamer, cambio de componentes, microelectrónica básica y formateo profesional. Cupos limitados.">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1200">
-  <meta name="twitter:card" content="summary_large_image">
-
-  <!-- =============================================== -->
-  <!-- META PIXEL CODE (FACEBOOK & INSTAGRAM ADS)      -->
-  <!-- =============================================== -->
   <!-- Meta Pixel Code -->
   <script>
     !function(f,b,e,v,n,t,s)
@@ -31,162 +19,643 @@
     fbq('init', '998687499837422');
     fbq('track', 'PageView');
   </script>
-  <noscript>
-    <img height="1" width="1" style="display:none"
-         src="https://www.facebook.com/tr?id=998687499837422&ev=PageView&noscript=1"/>
-  </noscript>
-  <!-- End Meta Pixel Code -->
-
-  <!-- Fuentes Tipográficas Modernas -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- Barra de urgencia dinámica -->
-  <div class="top-announcement">
-    <p>⚡ ATENCIÓN: El descuento especial del 50% finaliza en: <strong id="countdown">00:15:00</strong></p>
-  </div>
+  <!-- Elementos del cursor dinámico -->
+  <div class="cursor-dot" id="cursor-dot"></div>
+  <div class="cursor-circle" id="cursor-circle"></div>
 
-  <div class="container">
-    <!-- HERO SECTION -->
-    <header class="hero">
-      <div class="badge">💻 CERTIFICACIÓN TÉCNICA 100% PRÁCTICA</div>
-      <h1 class="main-title">Aprende a Reparar y Mantener <span class="gradient-text">PC y Laptops desde Cero</span> y Monta tu Propio Taller</h1>
-      <p class="hero-desc">Domina el diagnóstico de fallas, cambio de pantallas, mantenimiento térmico, ensamble de equipos gamer y recuperación de software sin necesidad de experiencia previa.</p>
-      
-      <!-- CONTENEDOR DE TU VIDEO PUBLICITARIO LOCAL -->
-      <!-- CONTENEDOR DE TU VIDEO PUBLICITARIO LOCAL -->
-      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1226303618?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="video.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+  <!-- Barra de progreso superior -->
+  <div class="scroll-indicator" id="scroll-indicator"></div>
 
-      <!-- BOTÓN PRINCIPAL HOTMART -->
-      <a href="https://go.hotmart.com/T51786674S" class="cta-button pulse-btn track-checkout" target="_blank" rel="noopener noreferrer">
-        ¡QUIERO ACCEDER AL CURSO CON 50% DCTO!
-      </a>
-      <span class="safe-checkout">🔒 Pago 100% Protegido por Hotmart® • Acceso Inmediato y Vitalicio</span>
-    </header>
+  <!-- Hero Header -->
+  <header class="hero">
+    <div class="container hero-inner">
+      <div class="tag">Programas Certificados 2026</div>
+      <h1>Aprende Oficios Tecnológicos de Alta Demanda</h1>
+      <p>Programas de formación práctica y directa para iniciar tu negocio de servicios técnicos o escalar tus habilidades profesionales con certificación internacional.</p>
+      <div class="scroll-cue">
+        <span>Explora los 10 programas disponibles</span>
+        <div class="scroll-line"></div>
+      </div>
+    </div>
+  </header>
 
-    <!-- HABILIDADES QUE DOMINARÁS -->
-    <section class="section">
-      <h2 class="section-title">Habilidades que dominarás en el curso</h2>
-      <div class="features-grid">
-        <div class="feature-card">
-          <div class="card-icon">🛠️</div>
-          <h3>Diagnóstico de Hardware</h3>
-          <p>Aprende a detectar componentes dañados, fallas de encendido, problemas en fuente de poder, memoria RAM y tarjetas madre.</p>
+  <!-- Feed Vertical de Cursos -->
+  <main class="container vertical-feed">
+
+    <!-- CURSO 01: PC Y LAPTOPS -->
+    <section class="course-section reveal" id="curso-01">
+      <div class="course-header">
+        <span class="course-number">01</span>
+        <div class="course-badge">Tecnología de Hardware & Soporte</div>
+        <h2>Técnico en Instalación, Reparación y Mantenimiento de PC y Laptops</h2>
+      </div>
+
+      <div class="media-container">
+        <video controls preload="metadata" class="interactive-video" playsinline>
+          <source src="video.mp4" type="video/mp4" />
+          Tu navegador no soporta la reproducción de video.
+        </video>
+      </div>
+
+      <div class="course-content">
+        <p class="lead-text">
+          Conviértete en un especialista capacitado para diagnosticar averías complejas, realizar mantenimiento correctivo/preventivo y levantar tu propio servicio técnico informático desde cero.
+        </p>
+
+        <div class="specs-grid">
+          <div class="spec-item"><strong>Acceso:</strong><span>De por vida (Campus 24/7)</span></div>
+          <div class="spec-item"><strong>Nivel:</strong><span>Principiante a avanzado</span></div>
+          <div class="spec-item"><strong>Garantía:</strong><span>7 días de devolución total</span></div>
+          <div class="spec-item"><strong>Certificado:</strong><span>Avalado por Hotmart®</span></div>
         </div>
 
-        <div class="feature-card">
-          <div class="card-icon">💻</div>
-          <h3>Reparación de Laptops</h3>
-          <p>Apertura segura de carcasas, cambio de teclados, pantallas, bisagras, baterías internas y conectores de carga (Jack DC).</p>
+        <div class="accordion">
+          <button class="accordion-trigger" type="button" data-interactive>
+            <span>Ver temario detallado y módulos</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <div class="panel-content">
+              <h4>Lo que dominarás en este programa:</h4>
+              <ul>
+                <li><strong>Arquitectura y ensamble:</strong> Compatibilidad de componentes, sockets, chipsets, slots RAM y fuentes ATX.</li>
+                <li><strong>Mantenimiento preventivo:</strong> Limpieza por ultrasonido y aire comprimido, pastas térmicas y flujo de disipación.</li>
+                <li><strong>Diagnóstico de hardware:</strong> Pruebas con multímetro, detección de cortos en placas y fuentes sin encendido.</li>
+                <li><strong>Software y sistemas:</strong> Instalaciones UEFI/BIOS, particionado GPT, copias de seguridad forenses y clonación de SSD.</li>
+                <li><strong>Estrategia de negocio:</strong> Cómo presupuestar servicios y fidelizar clientes locales.</li>
+              </ul>
+            </div>
+          </div>
         </div>
 
-        <div class="feature-card">
-          <div class="card-icon">❄️</div>
-          <h3>Mantenimiento Preventivo y Térmico</h3>
-          <p>Limpieza profunda de coolers, disipadores y aplicación correcta de pasta térmica y thermal pads para evitar sobrecalentamientos.</p>
-        </div>
-
-        <div class="feature-card">
-          <div class="card-icon">⚡</div>
-          <h3>Armado y Optimización Gamer</h3>
-          <p>Ensamble paso a paso de computadoras desde cero, compatibilidad de procesadores, tarjetas gráficas y gestión de cables profesional.</p>
-        </div>
-
-        <div class="feature-card">
-          <div class="card-icon">💾</div>
-          <h3>Instalación de Sistemas y Software</h3>
-          <p>Creación de USBs booteables, formateo limpio de Windows, instalación de drivers actualizados, eliminación de virus y optimización extrema.</p>
-        </div>
-
-        <div class="feature-card">
-          <div class="card-icon">💼</div>
-          <h3>Cómo Cobrar y Conseguir Clientes</h3>
-          <p>Estrategias probadas para presupuestar reparaciones, fidelizar clientes y generar ingresos diarios con servicios técnicos independientes.</p>
+        <div class="cta-banner">
+          <div class="price-wrapper">
+            <span class="price-discount">50% DCTO APLICADO</span>
+            <div class="prices">
+              <span class="price-old">$63.78 USD</span>
+              <span class="price-final">$31.89 USD</span>
+            </div>
+          </div>
+          <a href="https://hotm.io/descuento-pc-laptop" target="_blank" rel="noopener noreferrer" class="btn-primary" data-interactive onclick="fbq('track', 'InitiateCheckout', {content_name: 'PC y Laptops', value: 49.99, currency: 'USD'});">
+            Inscribirme con Descuento →
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- OFERTA Y BONOS -->
-    <section class="pricing-section">
-      <div class="pricing-box">
-        <span class="pricing-pill">PROMOCIÓN ESPECIAL DE LANZAMIENTO</span>
-        <h3>Inscríbete Hoy al Programa Completo</h3>
-        
-        <div class="price-container">
-          <span class="price-strikethrough">$97 USD</span>
-          <span class="price-final">$47 <small>USD</small></span>
+    <!-- CURSO 02: LAVADORAS XPERT -->
+    <section class="course-section reveal" id="curso-02">
+      <div class="course-header">
+        <span class="course-number">02</span>
+        <div class="course-badge">Seminarios.Online MasterClass</div>
+        <h2>Lavadoras Xpert</h2>
+      </div>
+
+      <div class="media-container">
+        <video controls preload="none" class="interactive-video" playsinline>
+          <source src="video1.mp4" type="video/mp4" />
+          Tu navegador no soporta video.
+        </video>
+      </div>
+
+      <div class="course-content">
+        <p class="lead-text">
+          Con LAVADORAS XPERT podrás realizar un diagnóstico preciso y reparar una lavadora convencional o digital de las marcas más comerciales. Este, es un negocio con alta demanda y muy bien remunerado.
+        </p>
+
+        <div class="specs-grid">
+          <div class="spec-item"><strong>Acceso:</strong><span>Ilimitado para siempre</span></div>
+          <div class="spec-item"><strong>Práctica:</strong><span>Casos reales de taller</span></div>
+          <div class="spec-item"><strong>Material:</strong><span>Diagramas eléctricos y Manuales de servicio</span></div>
+          <div class="spec-item"><strong>Certificación:</strong><span>Descargable incluida</span></div>
         </div>
 
-        <ul class="perks-list">
-          <li>✔ Acceso de por vida a todas las clases en video HD</li>
-          <li>✔ Acceso desde computadora, tablet o teléfono móvil</li>
-          <li>✔ Actualizaciones continuas sin costos mensuales</li>
-          <li>✔ <strong>Bono 1:</strong> Pack de programas y utilitarios para técnicos</li>
-          <li>✔ <strong>Bono 2:</strong> Guía de diagnóstico rápido en PDF</li>
-          <li>✔ <strong>Bono 3:</strong> Certificado de Finalización Técnico respaldado por Hotmart</li>
-          <li>✔ <strong>Garantía Total:</strong> 7 días de prueba o la devolución de tu dinero</li>
-        </ul>
+        <div class="accordion">
+          <button class="accordion-trigger" type="button" data-interactive>
+            <span>Ver temario detallado y módulos</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <div class="panel-content">
+              <!-- NUEVO ENFOQUE: LAVADORAS ANÁLOGAS Y DIGITALES -->
+<strong>Pilares de capacitación especializada:</strong>
+<ul>
+    <li><strong>Sistemas electromecánicos (Análogas):</strong> Diagnóstico de transmisiones directas y de banda, embragues, motores de inducción y calibración de programadores mecánicos (timers).</li>
+    <li><strong>Tecnología electrónica digital:</strong> Análisis de módulos de control de potencia, sensores de peso (vibración), actuadores ópticos y programación de placas universales.</li>
+    <li><strong>Sistemas de control de fluidos:</strong> Pruebas y reemplazo de presostatos lineales y electrónicos, válvulas de llenado proporcional y sistemas de recirculación.</li>
+    <li><strong>Optimización y puesta a punto:</strong> Protocolos de limpieza profunda de tinas, corrección de desbalances críticos en centrifugado y mantenimiento preventivo comercial.</li>
+</ul>
+            </div>
+          </div>
+        </div>
 
-        <a href="https://go.hotmart.com/T51786674S" class="cta-button full-width track-checkout" target="_blank" rel="noopener noreferrer">
-          INSCRIBIRME Y OBTENER MI CERTIFICADO
-        </a>
+        <div class="cta-banner">
+          <div class="price-wrapper">
+            <span class="price-discount">50% DCTO APLICADO</span>
+            <div class="prices">
+              <span class="price-old">$211.12 USD</span>
+              <span class="price-final">$105.56 USD</span>
+            </div>
+          </div>
+          <a href="https://go.hotmart.com/G55584398C?dp=1" target="_blank" rel="noopener noreferrer" class="btn-primary" data-interactive onclick="fbq('track', 'InitiateCheckout', {content_name: 'Electronica Aplicada', value: 24.99, currency: 'USD'});">
+            Inscribirme con Descuento →
+          </a>
+        </div>
       </div>
     </section>
 
-    <!-- PREGUNTAS FRECUENTES (FAQ) -->
-    <section class="section">
-      <h2 class="section-title">Preguntas Frecuentes</h2>
-      <div class="faq-container">
-        <div class="faq-item">
-          <div class="faq-header">
-            <h4>¿Necesito herramientas o conocimientos previos?</h4>
-            <span class="faq-toggle">+</span>
-          </div>
-          <div class="faq-content">
-            <p>No. El curso arranca desde cero absoluto. Aprenderás qué destornilladores y herramientas básicas necesitas para comenzar sin hacer gastos costosos.</p>
+    <!-- CURSO 03: Reparación y Mantenimiento de Neveras Caseras -->
+    <section class="course-section reveal" id="curso-03">
+      <div class="course-header">
+        <span class="course-number">03</span>
+        <div class="course-badge">Seminarios.Online MasterClass</div>
+        <h2>Reparación y Mantenimiento de Neveras Caseras</h2>
+      </div>
+
+      <div class="media-container">
+        <video controls preload="none" class="interactive-video" playsinline>
+          <source src="video-curso3.mp4" type="video/mp4" />
+          Tu navegador no soporta video.
+        </video>
+      </div>
+
+      <div class="course-content">
+        <p class="lead-text">
+          "¡Aprende a reparar neveras caseras y emprende un negocio altamente rentable! Conocerás a fondo el funcionamiento, diagnóstico y reparación de marcas líderes para ofrecer un servicio de calidad.
+        </p>
+
+        <div class="specs-grid">
+          <div class="spec-item"><strong>Acceso:</strong><span>De por vida</span></div>
+          <div class="spec-item"><strong>Especialidad:</strong><span>Neveras convencionales.</span></div>
+          <div class="spec-item"><strong>Garantía:</strong><span>7 días Hotmart</span></div>
+          <div class="spec-item"><strong>Certificado:</strong><span>Sí, incluido</span></div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-trigger" type="button" data-interactive>
+            <span>Ver temario detallado y módulos</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <div class="panel-content">
+              <h4>Temario y Módulos Técnicos:</h4>
+              <ul>
+                <li><strong>Qué vas a lograr?:</strong> Vislumbrarás cómo las neveras son una gran oportunidad de negocio altamente rentable donde podrás generar grandes ingresos ofreciendo un servicio de calidad.</li>
+                <li><strong>Electricidad y sistemas de deshielo:</strong> Revición y sustitución de componentes escenciales como el termostato, el temporizador (timer), sensores de temperatura y bimetales.</li>
+                <li><strong>Flasheo y desbloqueo:</strong> Restauración de software en modo Fastboot, DFU, Odin y soluciones a bucles de reinicio.</li>
+                <li><strong>Manatenimiento y fluidos.</strong> Manejo de tablas de aceites y tipos de refrigerantes ecológicos comunes en el hogar junto con la recarga de gas.</li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        <div class="faq-item">
-          <div class="faq-header">
-            <h4>¿Cómo y cuándo accedo al curso?</h4>
-            <span class="faq-toggle">+</span>
+        <div class="cta-banner">
+          <div class="price-wrapper">
+            <span class="price-discount">50% DCTO APLICADO</span>
+            <div class="prices">
+              <span class="price-old">$79.99 USD</span>
+              <span class="price-final">$39.99 USD</span>
+            </div>
           </div>
-          <div class="faq-content">
-            <p>Inmediatamente tras realizar el pago, Hotmart te enviará a tu correo electrónico el usuario y contraseña para ingresar de inmediato al aula virtual.</p>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-header">
-            <h4>¿Entregan certificado al terminar?</h4>
-            <span class="faq-toggle">+</span>
-          </div>
-          <div class="faq-content">
-            <p>Sí, al finalizar los módulos podrás descargar tu certificado oficial con tu nombre para respaldar tus servicios y atraer clientes con total confianza.</p>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <div class="faq-header">
-            <h4>¿Qué pasa si no me gusta el curso?</h4>
-            <span class="faq-toggle">+</span>
-          </div>
-          <div class="faq-content">
-            <p>Dispones de 7 días de garantía total incondicional respaldada por Hotmart. Si el curso no cumple tus expectativas, solicitas el reembolso en 1 clic y te devuelven el 100% de tu dinero.</p>
-          </div>
+          <a href="https://go.hotmart.com/S107626931A?dp=1" target="_blank" rel="noopener noreferrer" class="btn-primary" data-interactive onclick="fbq('track', 'InitiateCheckout', {content_name: 'Reparacion Celulares', value: 39.99, currency: 'USD'});">
+            Inscribirme con Descuento →
+          </a>
         </div>
       </div>
     </section>
-  </div>
 
-  <footer>
-    <p>© 2026 Todos los derechos reservados. Este sitio no forma parte de la red de Meta, Facebook o Google.</p>
-    <p>Procesamiento de pagos y entrega de contenidos gestionados de forma segura por Hotmart®.</p>
+    <!-- CURSO 04: REDES E INSTALACIÓN CCTV (CÁMARAS DE SEGURIDAD) -->
+    <section class="course-section reveal" id="curso-04">
+      <div class="course-header">
+        <span class="course-number">04</span>
+        <div class="course-badge">Seminarios.Online MasterClass</div>
+        <h2>Instalación y Configuración Profesional de Cámaras de Seguridad (CCTV & IP)</h2>
+      </div>
+
+      <div class="media-container">
+        <video controls preload="none" class="interactive-video" playsinline>
+          <source src="video-curso4.mp4" type="video/mp4" />
+          Tu navegador no soporta video.
+        </video>
+      </div>
+
+      <div class="course-content">
+        <p class="lead-text">
+          Diseña, cablea y pon en marcha sistemas de videovigilancia análoga de alta definición y cámaras IP con visualización remota en teléfonos móviles para hogares y empresas.
+        </p>
+
+        <div class="specs-grid">
+          <div class="spec-item"><strong>Acceso:</strong><span>Vitalicio 24/7</span></div>
+          <div class="spec-item"><strong>Enfoque:</strong><span>DVRs, NVRs y Redes</span></div>
+          <div class="spec-item"><strong>Garantía:</strong><span>7 días total</span></div>
+          <div class="spec-item"><strong>Certificado:</strong><span>Certificación oficial</span></div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-trigger" type="button" data-interactive>
+            <span>Ver temario detallado y módulos</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <div class="panel-content">
+              <h4>Temario paso a paso:</h4>
+              <ul>
+                <li><strong>Tecnologías de videovigilancia:</strong> Diferencias clave entre HD-TVI, CVI, AHD y sistemas IP PoE.</li>
+                <li><strong>Cableado estructurado:</strong> Conectorización con baluns de video, cable UTP Cat 5e/6 y fuentes de poder centralizadas.</li>
+                <li><strong>Configuración de red:</strong> Asignación de IPs fijas, apertura de puertos, DDNS y enlace a la nube mediante código P2P en smartphones.</li>
+                <li><strong>Presupuestos técnicos:</strong> Cálculo de capacidad de discos duros y cotización llave en mano.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-banner">
+          <div class="price-wrapper">
+            <span class="price-discount">50% DCTO APLICADO</span>
+            <div class="prices">
+              <span class="price-old">$59.99 USD</span>
+              <span class="price-final">$29.99 USD</span>
+            </div>
+          </div>
+          <a href="https://go.hotmart.com/T107601628F?ap=48cd" target="_blank" rel="noopener noreferrer" class="btn-primary" data-interactive onclick="fbq('track', 'InitiateCheckout', {content_name: 'Camaras Seguridad', value: 29.99, currency: 'USD'});">
+            Inscribirme con Descuento →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURSO 05: REDES INFORMÁTICAS Y CABLEADO ESTRUCTURADO -->
+    <!-- <section class="course-section reveal" id="curso-05">
+      <div class="course-header">
+        <span class="course-number">05</span>
+        <div class="course-badge">Seminarios.Online MasterClass</div>
+        <h2>Redes Informáticas, Cableado Estructurado y Configuración Wi-Fi</h2>
+      </div>
+
+      <div class="media-container">
+        <video controls preload="none" class="interactive-video" playsinline>
+          <source src="video-curso5.mp4" type="video/mp4" />
+          Tu navegador no soporta video.
+        </video>
+      </div>
+
+      <div class="course-content">
+        <p class="lead-text">
+          Aprende el montaje de racks, patch panels, crimpado norma T568A/B, subredes IPv4, switches administrables y puntos de acceso para oficinas y negocios.
+        </p>
+
+        <div class="specs-grid">
+          <div class="spec-item"><strong>Acceso:</strong><span>De por vida</span></div>
+          <div class="spec-item"><strong>Metodología:</strong><span>Normas ANSI/TIA/EIA</span></div>
+          <div class="spec-item"><strong>Garantía:</strong><span>7 días</span></div>
+          <div class="spec-item"><strong>Certificado:</strong><span>Sí</span></div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-trigger" type="button" data-interactive>
+            <span>Ver temario detallado y módulos</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <div class="panel-content">
+              <h4>Habilidades que aprenderás:</h4>
+              <ul>
+                <li><strong>Montaje de infraestructura:</strong> Instalación de bandejas, canaletas y ordenamiento estético en gabinetes de comunicaciones.</li>
+                <li><strong>Protocolos y direccionamiento:</strong> Máscaras de red, puertas de enlace, servidores DHCP y DNS seguros.</li>
+                <li><strong>Topologías Wi-Fi empresariales:</strong> Configuración de redes Mesh, roaming sin cortes y aislamiento de invitados.</li>
+                <li><strong>Diagnóstico de conectividad:</strong> Certificación de enlaces con tester y resolución de pérdida de paquetes.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-banner">
+          <div class="price-wrapper">
+            <span class="price-discount">50% DCTO APLICADO</span>
+            <div class="prices">
+              <span class="price-old">$69.99 USD</span>
+              <span class="price-final">$34.99 USD</span>
+            </div>
+          </div>
+          <a href="https://go.hotmart.com/TU_HOTLINK_CURSO5" target="_blank" rel="noopener noreferrer" class="btn-primary" data-interactive onclick="fbq('track', 'InitiateCheckout', {content_name: 'Redes Informaticas', value: 34.99, currency: 'USD'});">
+            Inscribirme con Descuento →
+          </a>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- CURSO 06: RECUPERACIÓN FORENSE DE DATOS -->
+    <!-- <section class="course-section reveal" id="curso-06">
+      <div class="course-header">
+        <span class="course-number">06</span>
+        <div class="course-badge">Seminarios.Online MasterClass</div>
+        <h2>Recuperación Avanzada de Datos en Discos Duros, SSD y Memorias</h2>
+      </div>
+
+      <div class="media-container">
+        <video controls preload="none" class="interactive-video" playsinline>
+          <source src="video-curso6.mp4" type="video/mp4" />
+          Tu navegador no soporta video.
+        </video>
+      </div>
+
+      <div class="course-content">
+        <p class="lead-text">
+          Uno de los servicios más rentables del soporte informático: rescata particiones perdidas, archivos eliminados accidentalmente y repara unidades lógicas con sectores dañados.
+        </p>
+
+        <div class="specs-grid">
+          <div class="spec-item"><strong>Acceso:</strong><span>De por vida</span></div>
+          <div class="spec-item"><strong>Herramientas:</strong><span>Software profesional</span></div>
+          <div class="spec-item"><strong>Garantía:</strong><span>7 días total</span></div>
+          <div class="spec-item"><strong>Certificado:</strong><span>Incluido</span></div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-trigger" type="button" data-interactive>
+            <span>Ver temario detallado y módulos</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <div class="panel-content">
+              <h4>Módulos de rescate forense:</h4>
+              <ul>
+                <li><strong>Sistemas de archivos:</strong> Estructura NTFS, FAT32, exFAT y EXT4, y cómo reconstruir tablas MBR/GPT.</li>
+                <li><strong>Recuperación lógica:</strong> Uso de herramientas en entornos Live USB para discos que Windows no reconoce.</li>
+                <li><strong>Clonación bit a bit:</strong> Generación de imágenes espejo para trabajar sobre copias de seguridad sin alterar el disco original.</li>
+                <li><strong>Solución a fallos de firmware:</strong> Diagnóstico de controladoras en memorias USB y unidades SSD bloqueadas en modo lectura.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-banner">
+          <div class="price-wrapper">
+            <span class="price-discount">50% DCTO APLICADO</span>
+            <div class="prices">
+              <span class="price-old">$49.99 USD</span>
+              <span class="price-final">$24.99 USD</span>
+            </div>
+          </div>
+          <a href="https://go.hotmart.com/TU_HOTLINK_CURSO6" target="_blank" rel="noopener noreferrer" class="btn-primary" data-interactive onclick="fbq('track', 'InitiateCheckout', {content_name: 'Recuperacion Datos', value: 24.99, currency: 'USD'});">
+            Inscribirme con Descuento →
+          </a>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- CURSO 07: REPARACIÓN Y MANTENIMIENTO DE IMPRESORAS EPSON Y CANON -->
+    <!-- <section class="course-section reveal" id="curso-07">
+      <div class="course-header">
+        <span class="course-number">07</span>
+        <div class="course-badge">Seminarios.Online MasterClass</div>
+        <h2>Reparación y Mantenimiento de Impresoras con Sistema Continuo</h2>
+      </div>
+
+      <div class="media-container">
+        <video controls preload="none" class="interactive-video" playsinline>
+          <source src="video-curso7.mp4" type="video/mp4" />
+          Tu navegador no soporta video.
+        </video>
+      </div>
+
+      <div class="course-content">
+        <p class="lead-text">
+          Aprende el destape químico de cabezales, reseteo de almohadillas (contador de impresiones), cambio de engranajes y solución de atascos de papel en modelos Epson EcoTank y Canon.
+        </p>
+
+        <div class="specs-grid">
+          <div class="spec-item"><strong>Acceso:</strong><span>24/7 de por vida</span></div>
+          <div class="spec-item"><strong>Enfoque:</strong><span>EcoTank y Cartuchos</span></div>
+          <div class="spec-item"><strong>Garantía:</strong><span>7 días</span></div>
+          <div class="spec-item"><strong>Certificado:</strong><span>Sí</span></div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-trigger" type="button" data-interactive>
+            <span>Ver temario detallado y módulos</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <div class="panel-content">
+              <h4>Temario práctico del taller de impresoras:</h4>
+              <ul>
+                <li><strong>Desensamble y limpieza:</strong> Purga de mangueras, eliminación de aire en dampers y servicio de bomba de succión.</li>
+                <li><strong>Destape de inyectores:</strong> Técnicas con líquidos formulados sin quemar el fusible F1/F2 de la placa lógica.</li>
+                <li><strong>Software de reseteo:</strong> Uso de herramientas Adjustment Program para desbloquear almohadillas llenas.</li>
+                <li><strong>Sensores y mecanismos:</strong> Reemplazo de rodillos de arrastre (pickup rollers) y sensores ópticos de papel.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-banner">
+          <div class="price-wrapper">
+            <span class="price-discount">50% DCTO APLICADO</span>
+            <div class="prices">
+              <span class="price-old">$59.99 USD</span>
+              <span class="price-final">$29.99 USD</span>
+            </div>
+          </div>
+          <a href="https://go.hotmart.com/TU_HOTLINK_CURSO7" target="_blank" rel="noopener noreferrer" class="btn-primary" data-interactive onclick="fbq('track', 'InitiateCheckout', {content_name: 'Reparacion Impresoras', value: 29.99, currency: 'USD'});">
+            Inscribirme con Descuento →
+          </a>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- CURSO 08: INSTALACIONES ELÉCTRICAS DOMICILIARIAS -->
+    <section class="course-section reveal" id="curso-08">
+      <div class="course-header">
+        <span class="course-number">05</span>
+        <div class="course-badge">Seminarios.Online MasterClass</div>
+        <h2>Electricidad Residencial y Comercial para Instaladores</h2>
+      </div>
+
+      <div class="media-container">
+        <video controls preload="none" class="interactive-video" playsinline>
+          <source src="video-curso8.mp4" type="video/mp4" />
+          Tu navegador no soporta video.
+        </video>
+      </div>
+
+      <div class="course-content">
+        <p class="lead-text">
+          Aprende el cálculo de cargas eléctricas, balance de fases, montaje de tableros con disyuntores diferenciales, cable a tierra e iluminación LED eficiente.
+        </p>
+
+        <div class="specs-grid">
+          <div class="spec-item"><strong>Acceso:</strong><span>De por vida</span></div>
+          <div class="spec-item"><strong>Nivel:</strong><span>Cero a instalador</span></div>
+          <div class="spec-item"><strong>Garantía:</strong><span>7 días total</span></div>
+          <div class="spec-item"><strong>Certificado:</strong><span>Incluido</span></div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-trigger" type="button" data-interactive>
+            <span>Ver temario detallado y módulos</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <div class="panel-content">
+              <h4>Módulos de electricidad aplicada:</h4>
+              <ul>
+                <li><strong>Seguridad industrial y EPP:</strong> Normas de protección contra electrocución y cortocircuitos.</li>
+                <li><strong>Dimensionamiento de conductores:</strong> Selección de calibres AWG / mm² según el consumo de amperios.</li>
+                <li><strong>Conexión de tableros eléctricos:</strong> Térmicas monofásicas y trifásicas, interruptores diferenciales y puesta a tierra.</li>
+                <li><strong>Circuitos de conmutación:</strong> Conexiones en escalera, fotocélulas, timbres y sensores de movimiento.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-banner">
+          <div class="price-wrapper">
+            <span class="price-discount">50% DCTO APLICADO</span>
+            <div class="prices">
+              <span class="price-old">$69.99 USD</span>
+              <span class="price-final">$34.99 USD</span>
+            </div>
+          </div>
+          <a href="https://go.hotmart.com/TU_HOTLINK_CURSO8" target="_blank" rel="noopener noreferrer" class="btn-primary" data-interactive onclick="fbq('track', 'InitiateCheckout', {content_name: 'Electricidad Residencial', value: 34.99, currency: 'USD'});">
+            Inscribirme con Descuento →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURSO 09: CIBERSEGURIDAD BÁSICA Y HACKING ÉTICO -->
+    <section class="course-section reveal" id="curso-09">
+      <div class="course-header">
+        <span class="course-number">06</span>
+        <div class="course-badge">Seminarios.Online MasterClass</div>
+        <h2>Ciberseguridad Práctica y Hacking Ético para Principiantes</h2>
+      </div>
+
+      <div class="media-container">
+        <video controls preload="none" class="interactive-video" playsinline>
+          <source src="video-curso9.mp4" type="video/mp4" />
+          Tu navegador no soporta video.
+        </video>
+      </div>
+
+      <div class="course-content">
+        <p class="lead-text">
+          Aprende a proteger sistemas y redes auditando vulnerabilidades con Kali Linux, análisis de tráfico con Wireshark y configuración de defensas activas contra ransomware.
+        </p>
+
+        <div class="specs-grid">
+          <div class="spec-item"><strong>Acceso:</strong><span>De por vida</span></div>
+          <div class="spec-item"><strong>Entorno:</strong><span>Laboratorios virtuales</span></div>
+          <div class="spec-item"><strong>Garantía:</strong><span>7 días</span></div>
+          <div class="spec-item"><strong>Certificado:</strong><span>Sí</span></div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-trigger" type="button" data-interactive>
+            <span>Ver temario detallado y módulos</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <div class="panel-content">
+              <h4>Ejes temáticos de seguridad informática:</h4>
+              <ul>
+                <li><strong>Auditoría con Kali Linux:</strong> Comandos esenciales, escaneo de puertos con Nmap y detección de servicios vulnerables.</li>
+                <li><strong>Seguridad en redes inalámbricas:</strong> Fortalecimiento de protocolos WPA2/WPA3 frente a ataques de fuerza bruta.</li>
+                <li><strong>Ingeniería social y Phishing:</strong> Análisis de correos maliciosos y concienciación de seguridad en organizaciones.</li>
+                <li><strong>Hardening de servidores y Windows:</strong> Políticas de contraseñas, cortafuegos y aislamiento de procesos.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-banner">
+          <div class="price-wrapper">
+            <span class="price-discount">50% DCTO APLICADO</span>
+            <div class="prices">
+              <span class="price-old">$79.99 USD</span>
+              <span class="price-final">$39.99 USD</span>
+            </div>
+          </div>
+          <a href="https://go.hotmart.com/G107594807R?ap=7191" target="_blank" rel="noopener noreferrer" class="btn-primary" data-interactive onclick="fbq('track', 'InitiateCheckout', {content_name: 'Ciberseguridad', value: 39.99, currency: 'USD'});">
+            Inscribirme con Descuento →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURSO 10: NEGOCIO DE SERVICIO TÉCNICO Y MARKETING -->
+    <!-- <section class="course-section reveal" id="curso-10">
+      <div class="course-header">
+        <span class="course-number">10</span>
+        <div class="course-badge">Seminarios.Online MasterClass</div>
+        <h2>Cómo Montar un Negocio de Servicio Técnico Rentable</h2>
+      </div>
+
+      <div class="media-container">
+        <video controls preload="none" class="interactive-video" playsinline>
+          <source src="video-curso10.mp4" type="video/mp4" />
+          Tu navegador no soporta video.
+        </video>
+      </div>
+
+      <div class="course-content">
+        <p class="lead-text">
+          Aprende el método exacto para captar clientes comerciales, elaborar cotizaciones formales, gestionar garantías y posicionar tu taller técnico en Google Maps y redes sociales.
+        </p>
+
+        <div class="specs-grid">
+          <div class="spec-item"><strong>Acceso:</strong><span>Ilimitado</span></div>
+          <div class="spec-item"><strong>Material:</strong><span>Plantillas de contratos</span></div>
+          <div class="spec-item"><strong>Garantía:</strong><span>7 días total</span></div>
+          <div class="spec-item"><strong>Certificado:</strong><span>Incluido</span></div>
+        </div>
+
+        <div class="accordion">
+          <button class="accordion-trigger" type="button" data-interactive>
+            <span>Ver temario detallado y módulos</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <div class="panel-content">
+              <h4>Módulos de emprendimiento técnico:</h4>
+              <ul>
+                <li><strong>Cálculo de tarifas:</strong> Cómo cobrar por hora de servicio, diagnóstico y mantenimiento preventivo sin regalar tu trabajo.</li>
+                <li><strong>Captación con Google Perfil de Negocio:</strong> Configuración para aparecer primero en tu ciudad cuando busquen servicio técnico.</li>
+                <li><strong>Contratos de mantenimiento:</strong> Modelos legales de pólizas mensuales para pequeñas y medianas empresas.</li>
+                <li><strong>Atención al cliente por WhatsApp:</strong> Scripts de cierre y automatizaciones de respuesta.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-banner">
+          <div class="price-wrapper">
+            <span class="price-discount">50% DCTO APLICADO</span>
+            <div class="prices">
+              <span class="price-old">$49.99 USD</span>
+              <span class="price-final">$24.99 USD</span>
+            </div>
+          </div>
+          <a href="https://go.hotmart.com/TU_HOTLINK_CURSO10" target="_blank" rel="noopener noreferrer" class="btn-primary" data-interactive onclick="fbq('track', 'InitiateCheckout', {content_name: 'Negocio Servicio Tecnico', value: 24.99, currency: 'USD'});">
+            Inscribirme con Descuento →
+          </a>
+        </div>
+      </div>
+    </section> -->
+
+  </main>
+
+  <!-- Footer Minimalista -->
+  <footer class="footer-minimal">
+    <div class="container">
+      <p>Pagos procesados de forma 100% segura con encriptación SSL de 256 bits a través de Hotmart®.</p>
+      <p>Garantía incondicional de 7 días. Si el contenido no cumple tus expectativas, solicitas el reembolso total de tu dinero.</p>
+      <p class="copyright">© 2026 Todos los derechos reservados.</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
